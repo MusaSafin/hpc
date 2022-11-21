@@ -65,20 +65,20 @@ mpiexec -n 8 ./cellular_automation.py --n-epochs 20 --size 16 --rule-id 110 --pe
 
 Время работы программы взависимости от кол-ва процессов:
 ```
-(hpc) safin@MacBook-Pro-Admin task5 % mpiexec -n 1 ./cellular_automation.py --n-epochs 10000 --size 840 --rule-id 110 --periodic
+mpiexec -n 1 ./cellular_automation.py --n-epochs 10000 --size 840 --rule-id 110 --periodic
 1.9700188636779785 sec. for world size of 1
-(hpc) safin@MacBook-Pro-Admin task5 % mpiexec -n 2 ./cellular_automation.py --n-epochs 10000 --size 840 --rule-id 110 --periodic
+mpiexec -n 2 ./cellular_automation.py --n-epochs 10000 --size 840 --rule-id 110 --periodic
 1.3768668174743652 sec. for world size of 2
-(hpc) safin@MacBook-Pro-Admin task5 % mpiexec -n 3 ./cellular_automation.py --n-epochs 10000 --size 840 --rule-id 110 --periodic
+mpiexec -n 3 ./cellular_automation.py --n-epochs 10000 --size 840 --rule-id 110 --periodic
 1.096567153930664 sec. for world size of 3
-(hpc) safin@MacBook-Pro-Admin task5 % mpiexec -n 4 ./cellular_automation.py --n-epochs 10000 --size 840 --rule-id 110 --periodic
+mpiexec -n 4 ./cellular_automation.py --n-epochs 10000 --size 840 --rule-id 110 --periodic
 1.07224702835083 sec. for world size of 4
-(hpc) safin@MacBook-Pro-Admin task5 % mpiexec -n 5 ./cellular_automation.py --n-epochs 10000 --size 840 --rule-id 110 --periodic
+mpiexec -n 5 ./cellular_automation.py --n-epochs 10000 --size 840 --rule-id 110 --periodic
 0.8862099647521973 sec. for world size of 5
-(hpc) safin@MacBook-Pro-Admin task5 % mpiexec -n 6 ./cellular_automation.py --n-epochs 10000 --size 840 --rule-id 110 --periodic
+mpiexec -n 6 ./cellular_automation.py --n-epochs 10000 --size 840 --rule-id 110 --periodic
 0.9307119846343994 sec. for world size of 6
-(hpc) safin@MacBook-Pro-Admin task5 % mpiexec -n 7 ./cellular_automation.py --n-epochs 10000 --size 840 --rule-id 110 --periodic
+mpiexec -n 7 ./cellular_automation.py --n-epochs 10000 --size 840 --rule-id 110 --periodic
 1.0551788806915283 sec. for world size of 7
-(hpc) safin@MacBook-Pro-Admin task5 % mpiexec -n 8 ./cellular_automation.py --n-epochs 10000 --size 840 --rule-id 110 --periodic
+mpiexec -n 8 ./cellular_automation.py --n-epochs 10000 --size 840 --rule-id 110 --periodic
 1.2225489616394043 sec. for world size of 8
 ```
