@@ -63,7 +63,7 @@ mpiexec -n 8 ./cellular_automation.py --n-epochs 20 --size 16 --rule-id 110 --pe
 0.00368499755859375 sec. for world size of 8
 ```
 
-Ускорение работы программы от кол-ва процессов:
+Время работы программы взависимости от кол-ва процессов:
 ```
 (hpc) safin@MacBook-Pro-Admin task5 % mpiexec -n 1 ./cellular_automation.py --n-epochs 10000 --size 840 --rule-id 110 --periodic
 1.9700188636779785 sec. for world size of 1
